@@ -6,7 +6,7 @@ Installation
 ========================
 1. Open terminal and ```cd``` to "Fbx-conv-installer-Linux" folder.
 2. Run ```chmod -R 755 .``` to make all files in the folder executable.
-3. Install with your package manager: ```libpng-dev zlib1g-dev sed git wget make gcc lib32stdc++6 lib32gcc1 lib32z1``` + ```lib32stdc++6 lib32gcc1 lib32z1``` (For x64) or ```./0-Install-DebianUbuntuDependencies.sh``` (if you use Debian or Ubuntu.)
+3. Install with your package manager: ```libpng-dev zlib1g-dev sed git wget make gcc lib32stdc++6 lib32gcc1 lib32z1``` + ```lib32stdc++6 lib32gcc1 lib32z1``` (For x64) or run ```./0-Install-DebianUbuntuDependencies.sh``` (if you use Debian or Ubuntu.)
 4. Run ```./Install.sh``` 
 
 After downloading the necessary files, the installation setup of "FBX-SDK" will start, follow the setup instructions and wait the compilation process.
