@@ -4,10 +4,10 @@ A small set of scripts to automatically download and build fbx-conv for Linux di
 
 Installation
 ========================
-1. Open terminal and ```cd``` to "Fbx-conv-installer-Linux" folder
-2. Install with your package manager: ```libpng-dev zlib1g-dev sed git wget make gcc lib32stdc++6 lib32gcc1 lib32z1``` 
+1. Open terminal and ```cd``` to "Fbx-conv-installer-Linux" folder.
+2. Run ```chmod -R 755 .``` to make all files in the folder executable.
+3. Install with your package manager: ```libpng-dev zlib1g-dev sed git wget make gcc lib32stdc++6 lib32gcc1 lib32z1``` 
 (Or run ```./0-Install_Debian&UbuntuDependencies.sh``` if you use Debian or Ubuntu.)
-3. Run ```chmod -R 755 .``` to make all files in the folder executable
 4. Run ```./Install.sh``` 
 
 After downloading the necessary files, the installation setup of "FBX-SDK" will start, follow the setup instructions and wait the compilation process.
