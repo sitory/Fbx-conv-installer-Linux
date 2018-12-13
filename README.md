@@ -6,7 +6,8 @@ Installation
 ========================
 1. Open terminal and ```cd``` to "Fbx-conv-installer-Linux" folder.
 2. Run ```chmod -R 755 .``` to make all files in the folder executable.
-3. Install with your package manager: ```libpng-dev zlib1g-dev sed git wget make gcc lib32stdc++6 lib32gcc1 lib32z1``` + ```lib32stdc++6 lib32gcc1 lib32z1``` (For x64)
+3. Install with your package manager: ```libpng-dev zlib1g-dev sed git wget make gcc lib32stdc++6 lib32gcc1 lib32z1``` + ``lib32stdc++6 lib32gcc1 lib32z1``` (For x64)
+
 Or run ```./0-Install-DebianUbuntuDependencies.sh``` if you use Debian or Ubuntu.
 
 4. Run ```./Install.sh``` 
