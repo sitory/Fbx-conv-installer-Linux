@@ -9,4 +9,4 @@ export FBX_SDK_ROOT=fbxsdk
 ./premake4 --file=premake.lua gmake
 cd build/gmake
 ln -s ../../../fbxsdk
-make
+make config=release
