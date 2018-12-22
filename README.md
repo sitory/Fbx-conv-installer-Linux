@@ -8,7 +8,7 @@ Quick Debian and Ubuntu install
 git clone https://github.com/Yzubi/Fbx-conv-installer-Linux.git
 cd Fbx-conv-installer-Linux
 chmod -R 755 .
-sudo ./0-Install-DebianUbuntuDependencies.sh
+sudo ./0-Install-DebianUbuntuDependencies.sh;
 
 ./Install.sh
 ```
