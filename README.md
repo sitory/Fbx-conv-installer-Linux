@@ -2,6 +2,15 @@ Fbx-conv-installer-Linux
 ========================
 A small set of scripts to automatically download and build fbx-conv for Linux distros.
 
+Quick Debian and Ubuntu install
+========================
+```
+git clone https://github.com/Yzubi/Fbx-conv-installer-Linux.git
+cd Fbx-conv-installer-Linux
+chmod -R 755 .
+./0-Install-DebianUbuntuDependencies.sh
+./Install.sh
+```
 Installation
 ========================
 1. Open terminal and ```cd``` to "Fbx-conv-installer-Linux" folder.
