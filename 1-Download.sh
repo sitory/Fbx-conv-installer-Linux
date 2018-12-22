@@ -10,4 +10,7 @@ mkdir fbxsdk
 cd fbxsdk
 wget http://download.autodesk.com/us/fbx/2019/2019.0/fbx20190_fbxsdk_linux.tar.gz
 tar -zxvf fbx20190_fbxsdk_linux.tar.gz
-./fbx20190_fbxsdk_linux
+./fbx20190_fbxsdk_linux<<< "y
+yes
+n
+"
