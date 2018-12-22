@@ -9,6 +9,7 @@ git clone https://github.com/Yzubi/Fbx-conv-installer-Linux.git
 cd Fbx-conv-installer-Linux
 chmod -R 755 .
 sudo ./0-Install-DebianUbuntuDependencies.sh && ./Install.sh
+
 ```
 Installation
 ========================
