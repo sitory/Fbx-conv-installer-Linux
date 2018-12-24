@@ -1,6 +1,6 @@
 Fbx-conv-installer-Linux
 ========================
-A small set of scripts to automatically download and build fbx-conv for Linux distros.
+A small set of scripts to automatically download FBX-SDK/fbx-conv and build fbx-conv for Linux distros.
 
 Quick Debian and Ubuntu install
 ========================
