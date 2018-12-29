@@ -1,6 +1,6 @@
 Fbx-conv-installer-Linux
 ========================
-A small set of scripts to automatically download FBX-SDK/fbx-conv and build fbx-conv for Linux distros.
+A small set of Linux scripts to automatically download and build [fbx-conv](https://github.com/libgdx/fbx-conv) and all its dependencies.
 
 Quick Debian and Ubuntu install
 ========================
@@ -30,3 +30,8 @@ This happens because the system search by default for libfbxsdk.so and libfbxsdk
 2. ```./Run.sh``` run the shell script i use for batch file conversion, you can use arguments.
 3. ```export LD_LIBRARY_PATH=.``` (before running ```./fbx-conv```) to make the system look for the  libraries at the current directory.
 4. ```sudo cp {libfbxsdk.a,libfbxsdk.so} /usr/lib``` (at the fbx-conv directory) to copy the files to "/usr/lib"
+
+Links
+========================
+- [FBX-SDK-2019](https://www.autodesk.com/developer-network/platform-technologies/fbx-sdk-2019-0)
+- [fbx-conv](https://github.com/libgdx/fbx-conv)
