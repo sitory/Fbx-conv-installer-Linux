@@ -15,7 +15,7 @@ Quick [libgdx-fbxconv-gui install](https://github.com/Yzubi/libgdx-fbxconv-gui?o
 ```
 mv fbx-conv fbx-conv-lin64
 wget https://github.com/ASneakyFox/libgdx-fbxconv-gui/releases/download/1.5/fbxconv-gui.jar
-cp ../fbx-conv-gui.sh fbx-conv
+cp ../fbx-conv-gui.sh .
 ```
 Installation
 ========================
