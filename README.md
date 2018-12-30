@@ -10,6 +10,13 @@ cd Fbx-conv-installer-Linux
 chmod -R 755 .
 sudo ./0-Install-DebianUbuntuDependencies.sh && ./Install.sh
 ```
+Quick [libgdx-fbxconv-gui install](https://github.com/Yzubi/libgdx-fbxconv-gui?organization=Yzubi&organization=Yzubi) (Optional)
+========================
+```
+mv fbx-conv fbx-conv-lin64
+wget https://github.com/ASneakyFox/libgdx-fbxconv-gui/releases/download/1.5/fbxconv-gui.jar
+cp ../fbx-conv-gui.sh fbx-conv
+```
 Installation
 ========================
 1. Open terminal and ```cd``` to "Fbx-conv-installer-Linux" folder.
