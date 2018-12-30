@@ -34,7 +34,7 @@ Troubleshooting
 **When i try to run ```./fbx-conv``` i get this error ```error while loading shared libraries: libfbxsdk.so: cannot open shared object file: No such file or directory```**
 
 This happens because the system search by default for libfbxsdk.so and libfbxsdk.a on the "/usr/lib" directory, you can use either:
-1. ```./fbx-conv.sh``` or ```libgdx-fbxconv-gui.sh``` (if you installed the gui) a script that run fbx-conv, but export the library path to current directory before doing it, you can use arguments.
+1. ```./fbx-conv.sh``` or ```./libgdx-fbxconv-gui.sh``` (if you installed the gui) a script that run fbx-conv, but export the library path to current directory before doing it, you can use arguments.
 2. ```./Run.sh``` run the shell script i use for batch file conversion, you can use arguments.
 3. ```export LD_LIBRARY_PATH=.``` (before running ```./fbx-conv```) to make the system look for the  libraries at the current directory.
 4. ```sudo cp {libfbxsdk.a,libfbxsdk.so} /usr/lib``` (at the fbx-conv directory) to copy the files to "/usr/lib"
