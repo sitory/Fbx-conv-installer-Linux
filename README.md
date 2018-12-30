@@ -14,7 +14,7 @@ sudo ./0-Install-DebianUbuntuDependencies.sh && ./Install.sh
 ========================
 ```
 cd fbx-conv
-ln -sfn fbx-conv fbx-conv-64
+ln -sfn fbx-conv fbx-conv-lin64
 wget https://github.com/ASneakyFox/libgdx-fbxconv-gui/releases/download/1.5/fbxconv-gui.jar
 chmod 755 fbxconv-gui.jar
 cp ../fbx-conv-gui.sh .
