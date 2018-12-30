@@ -42,3 +42,4 @@ Links
 ========================
 - [FBX-SDK-2019](https://www.autodesk.com/developer-network/platform-technologies/fbx-sdk-2019-0)
 - [fbx-conv](https://github.com/libgdx/fbx-conv)
+- [libgdx-fbxconv-gui](https://github.com/ASneakyFox/libgdx-fbxconv-gui)
