@@ -30,7 +30,7 @@ Usage of "Run.sh"
 ========================
 ```cd``` to fbx-conv and put your models in the "models" folder, run ```./Run.sh``` to convert the files. Converted files will be moved to the "converted" folder, all the files will be moved to the "done" folder. You can edit the "Run.sh" file to place the files directly in your project folder. (ex: "/user/game/models/3d" instead of "converted")
 
-You can also use ```watch -n1 ./Run.sh``` to run the script each 1 second, so your files will be converted automatically when saved.
+You can also use ```watch -n2 ./Run.sh``` to run the script each 2 seconds, so your files will be converted automatically when saved.
 
 Troubleshooting
 ========================
