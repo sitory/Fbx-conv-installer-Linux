@@ -32,6 +32,8 @@ Usage of "Run.sh"
 
 You can also use ```watch -n2 ./Run.sh``` to run the script each 2 seconds, so your files will be converted automatically when saved.
 
+Or ```while true; do find "models" | entr -d ./Run.sh; done``` (You need to install entr for this ```sudo apt-get install entr```) so the script will be run each time the files in the "models" folder changes.
+
 Troubleshooting
 ========================
 **When i try to run ```./fbx-conv``` i get this error ```error while loading shared libraries: libfbxsdk.so: cannot open shared object file: No such file or directory```**
