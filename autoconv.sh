@@ -1,3 +1,3 @@
 cd "${0%/*}"
 options="$@"
-while true; do find models | entr -d "./Run.sh" "$options"; done
+while sleep 2; do find models | entr -d -r "./Run.sh" "$options"; done
