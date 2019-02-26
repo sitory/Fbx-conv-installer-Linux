@@ -32,7 +32,7 @@ Usage of "Run.sh"
 
 You can also use ```watch -n2 ./Run.sh``` to run the script each 2 seconds, so your files will be converted automatically when saved.
 
-Or ```while sleep 2; do find models | entr -d -r "./Run.sh" "$options"; done``` (You need to install entr for this ```sudo apt-get install entr```) so the script will be run each time the files in the "models" folder changes.
+Or ```while sleep 2; do find models | entr -d -r "./Run.sh"; done``` (You need to install entr for this ```sudo apt-get install entr```) so the script will be run each time the files in the "models" folder changes.
 
 Troubleshooting
 ========================
