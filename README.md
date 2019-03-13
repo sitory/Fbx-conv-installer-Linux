@@ -5,7 +5,7 @@ A small set of shell scripts to automatically download and build [fbx-conv](http
 Quick Debian and Ubuntu install
 ========================
 ```
-git clone https://github.com/Yzubi/Fbx-conv-installer-Linux.git
+git clone https://github.com/sitory/Fbx-conv-installer-Linux.git
 cd Fbx-conv-installer-Linux
 chmod -R 755 .
 sudo ./0-Install-DebianUbuntuDependencies.sh && ./Install.sh
